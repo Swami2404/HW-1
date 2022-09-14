@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    background-image: url("./bg.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profile {
+    margin: auto;
+    display: block;
+    width: 20%;
+    border: 20px groove #f8023a;
+}
+
+li {
+    padding: 4px;
+}
+
+.clg {
+    display: block;
+    margin: auto;
+}
+
+.csc {
+    color: red;
+}
+
+.profile,
+.name,
+.clg {
+    text-align: center;
+}
+
+.table {
+    margin: 20px auto;
+    
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+.table td,
+.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+
+.list {
+    margin: 20px auto;
+}
+
+.hobbies,
+.interests,
+.history,
+.website {
+    margin: auto;
+    display: block;
+    width: 25%;
+}
+
+.head-list {
+    display: block;
+    font-weight: bold;
+}
+
+
+
+
+.extra-width {
+    width: 145%;
+}
+
+.specific-list {
+    padding-left: 21px !important;
+}
+
+ol li {
+    font-size: 17px !important;
+}
+
+.poem {
+    font-weight: bold;
+}
